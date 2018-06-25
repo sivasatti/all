@@ -29,7 +29,10 @@
 			//"s3": {
 			//	"type": "string",
 			//	"value": "[reference('storage1806221525').creationTime]"
-	    		"testout":  "testoutput"
+	    		"testout": {
+				"type": "string",
+				"value": "testoutput"
 			}
+			
 	}
 }
