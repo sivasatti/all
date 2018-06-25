@@ -31,7 +31,7 @@
 			//	"value": "[reference('storage1806221525').creationTime]"
 	    		"testout": {
 				"type": "string",
-				"value": "[reference('storage1806221525').creationTime]"
+				"value": "[reference('storage1806221432', '2016-01-01').creationTime]"
 			}
 			
 	}
