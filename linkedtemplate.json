@@ -26,9 +26,10 @@
 			//	"type": "string",
 			//	"value": "[reference('storage1806221433').accessTier]"
 			//},
-			"s3": {
-				"type": "string",
-				"value": "[reference('storage1806221525').creationTime]"
+			//"s3": {
+			//	"type": "string",
+			//	"value": "[reference('storage1806221525').creationTime]"
+	    		"testout":  "testoutput"
 			}
 	}
 }
