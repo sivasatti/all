@@ -4,7 +4,8 @@
 	"parameters": {
 	},
 	"variables": {
-		"v1": "[concat('a','b')]"
+		"v1": "[concat('a','b')]",
+		"vFlag" :  false
 	},
 	"resources": [
 		{
@@ -31,7 +32,7 @@
 			//	"value": "[reference('storage1806221525').creationTime]"
 	    		"testout": {
 				"type": "string",
-				"value": "[reference('storage1806221432', '2016-01-01').creationTime]"
+				"value": "[if(variables('vFlag'), reference('storage1806221432', '2016-01-01').creationTime, 'not set')]"
 			}
 			
 	}
